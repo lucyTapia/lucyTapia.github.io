@@ -1,3 +1,0 @@
-# Lucy Tapia 
-
-<img src=""/>
