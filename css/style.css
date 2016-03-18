@@ -1,0 +1,379 @@
+/*Main Nav*/
+body {
+  background: #BC8F8F;
+} 
+
+.main {
+  font-family: 'Cabin', sans-serif;
+  color: grey;
+  background: #E0EFFD;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  padding: 1em;
+  }
+
+ ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    text-align: center;
+    display: block;
+    
+    } 
+
+li {
+    display: inline;
+    
+    
+}
+
+li a {
+    display:ibline-block;
+    color: grey;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+
+li a:hover {
+    background-color: #bc8f8f;
+    color:white;
+
+}
+
+.icon-1 img {
+  width: 95px;
+  height: 95px;
+  display: block;
+  margin: 0 auto;
+  margin-top: 26px;
+  opacity: 0.7;
+}
+
+/*Resume Aout*/
+
+@import url(https://fonts.googleapis.com/css?family=Cabin);
+
+@media screen and (max-width:320px){
+
+  body { 
+  background: #BC8F8F;
+}
+
+.resume{
+  width: 90%;
+  margin: 0 auto;
+  margin-bottom: -10.12em;
+}
+
+.box{
+  background: lightgrey;
+  height: 1900px;
+  width: 100px;
+  position: absolute;
+  margin-top: 4em;
+  }
+
+.box2 {
+  background: lightgrey;
+  height: 19px;
+  width: 6000px;
+  position: absolute;
+  margin-top: 4em;
+  
+  }
+
+h2 {
+  font-family: 'Cabin', sans-serif;
+  color:#E0EFFD;
+  text-decoration: underline;
+  text-decoration-color: #E18728;
+  text-transform: uppercase;
+  font-weight: 200;
+  font-size: 2em;
+  letter-spacing: .1em;
+  padding: 10px;
+  margin-left: 3em;
+ 
+}
+
+h3 {
+  color:white;
+  font-weight: ;
+  font-size: .9em;
+  letter-spacing: .12em;
+  display: block;
+  position: relative;
+  margin-left: 8em;
+  }
+
+h4 {
+  color:white;
+  font-weight: 200;
+  font-size: .8em;
+  letter-spacing: .12em;
+  margin-left: 9em;
+  display: block;
+  position: relative;
+}
+
+p {
+  color:white;
+  font-weight: 200;
+  font-size: .9em;
+  letter-spacing: .1em;
+  margin-left: 8em;
+  }
+
+#lulu{
+  color:white 
+ 
+  }
+  
+#headingresume{
+  font-family: 'Cabin', sans-serif;
+  color:#E0EFFD;
+  text-decoration: underline;
+  text-decoration-color: #E18728;
+  text-transform: uppercase;
+  font-weight: 200;
+  font-size: 2em;
+  margin-left:2em;
+  position: relative;
+  height: 75px;
+	width: 75px;
+  }
+
+.about{
+  width: 90%;
+  margin: 0 auto;
+  margin-bottom: -10.12em;
+  }
+
+#lalo{
+  font-family: 'Cabin', sans-serif;
+  color:white;
+  font-weight: 200;
+  letter-spacing: .12em;
+  line-height: 1.7em;
+  font-size: .9em;
+  margin: 0 auto;
+  padding: 20px;
+  position: relative;
+  margin-left: 25em;
+  margin-top: 3em;
+  bottom: 15em; 
+  width: 70%;
+}
+
+#mepic {
+  width: 19%;
+  padding: 5px;
+  margin-top: 1em;
+  }
+  
+#headingAbout {
+  font-family: 'Cabin', sans-serif;
+  color:#E0EFFD;
+  text-decoration: underline;
+  text-decoration-color: #E18728;
+  text-transform: uppercase;
+  font-weight: 200;
+  font-size: 2em;
+  padding: 10px;
+  margin-left:em;
+  position: relative;
+  height: 75px;
+	width: 75px;
+ }
+}
+
+/*PORTFOLIO*/
+@import url(https://fonts.googleapis.com/css?family=Cabin);
+body { 
+  background: #BC8F8F;
+}
+
+#work-title{font-family: 'Cabin', sans-serif;
+  color:#E0EFFD;
+  text-decoration: underline;
+  text-decoration-color: #E18728;
+  text-transform: uppercase;
+  font-weight: 200;
+  font-size: 2em;
+  margin-left:.7em;
+  letter-spacing: .1em;
+  padding: 2px;}
+  
+.portfolio{
+   height:400px;
+   margin:0 auto;
+}
+	
+#gallery li{
+   display:inline-block;
+   margin:9px;
+   clear:both;
+   }
+
+#gallery li a img:hover{
+   border:solid gray;
+}
+
+
+/*lightbox stuff*/
+a.lightbox img {
+height: 326px;
+width: 300px;
+border: 3px solid gray;
+border-radius:0px;
+box-shadow: 0px 0px 10px rgba(0,0,0,.4);
+margin: 5px;
+}
+
+.lightbox-target {
+position: fixed;
+top: 0;
+left:0;
+width: 100%;
+background: rgba(0,0,0,.7);
+width: 100%;
+opacity: 0;
+transition: opacity .6s ease-in-out;
+overflow: hidden;
+margin-bottom:0px
+}
+
+
+.lightbox-target img{
+margin: auto;
+position: fixed;
+top: 0;
+left:0;
+right:0;
+bottom: 0;
+max-height: 0%;
+max-width: 0%;
+border: 3px solid white;
+box-shadow: 0px 0px 8px rgba(0,0,0,.3);
+box-sizing: border-box;
+transition: .5s ease-in-out;
+border-radius:0px;
+}
+
+a.lightbox-close {
+display: block;
+width:50px;
+height:50px;
+box-sizing: border-box;
+background: white;
+color: black;
+text-decoration: none;
+position: fixed;
+top: -80px;
+right: 0;
+transition: .7s ease-out-in;
+}
+
+/*the exit*/
+
+a.lightbox-close:before {
+content: "";
+display: block;
+height: 30px;
+width: 1px;
+background: black;
+position: absolute;
+left: 26px;
+top:10px;
+transform:rotate(45deg);
+}
+
+a.lightbox-close:after {
+content: "";
+display: block;
+height: 30px;
+width: 1px;
+background: gray;
+position: absolute;
+left: 26px;
+top:10px;
+transform:rotate(-50deg);
+}
+
+.lightbox-target:target {
+opacity: 4;
+top: 0;
+bottom: 0;
+}
+
+.lightbox-target:target img {
+max-height: 100%;
+max-width: 100%;
+}
+
+.lightbox-target:target a.lightbox-close {
+top: 0px;
+}
+
+/*CONTACT*/
+@import url(https://fonts.googleapis.com/css?family=Cabin);
+
+lable, 
+input{
+  display: block;
+  text-transform: uppercase;
+  font-size: 1em;
+  margin-left: 22em;
+  margin-top: 2em;
+  letter-spacing: .1em;
+  padding: 2px;
+  font-family: 'Cabin', sans-serif;
+  color:grey;
+  text-decoration: underline;
+  text-decoration-color: #E18728;
+  text-transform: uppercase;
+  
+ }
+
+input[type="text"]{
+    border: 2px solid white;
+    padding: 10px 40px; 
+    background: #E0EFFD;
+    width: 45.5%;
+    margin: 0 auto;
+    margin-top: 3em;
+    border-radius: 1px;
+}
+
+input[type="email"]{
+    border: 2px solid white;
+    padding: 10px 40px; 
+    background: #E0EFFD;
+    width: 45.5%;
+    margin: 0 auto;
+    border-radius: 1px;
+ }
+   
+
+.textbox{
+  padding: 10px 40px; 
+  background: #E0EFFD;
+  border: 2px solid white;
+  width: 45.5%;
+  margin-top: 1em;
+  margin-left: 28.2em;
+  
+}
+
+
+:focus{
+  background: grey;
+  transition:background .25s;
+  border: 2px solid white;
+  color:white;  
+
+}
+  
+
