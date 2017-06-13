@@ -1,45 +1,69 @@
 <!DOCTYPE html>
-<html class="Home">
-  <head>
-    <meta charset="UTF-8">
-    <title>Home</title>
-    
-    
-    <link rel="stylesheet" href="css/normalize.css">
-
-    
-        <link rel="stylesheet" href="css/style.css">
-
-    
-    
-    
-  </head>
-
-  <body>
-
-    <!-- Included from http://codepen.io/lucyTapia/pen/BjJGwy -->     <!-- Nav --><div class="icon-1">
-			<img src="https://raw.githubusercontent.com/lucyTapia/lucyTapia.github.io/master/img/personalLogo4.png">
-		</div>
-
-<nav> 
-     
-   <ul class="main">
-    <li><a href="http://s.codepen.io/lucyTapia/debug/eJrPvP">Home</a></li>
-    <li><a href="http://s.codepen.io/lucyTapia/debug/mPEOMJ">Resume</a></li>
-    <li><a href="http://s.codepen.io/lucyTapia/debug/qbYMev">Portfolio</a></li>
-    <li><a href="http://s.codepen.io/lucyTapia/debug/xZvVoB">Contact</a></li>
-  </ul>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Javascript Challenge Day 1:Drum Kit</title>
   
-</nav>
+  
+  
+      <link rel="stylesheet" href="css/style.css">
 
+  
+</head>
 
+<body>
+  <body>
+	<div class="black"></div>
+	<div class="flex">
+		<div class="centering">
 
+			<div class="headline">
+				<h1>Javascript DrumKit</h1>
+				<h2>bust in on the beat!</h2>
+				<p>Press the keys on your keyboard to play a sound.</p>
+			</div>
 
-     <!-- End include from http://codepen.io/lucyTapia/pen/BjJGwy -->
-    
-    
-    
-    
-    
-  </body>
+			<div id="focus" class="keys">
+
+				<div data-key="65" class="key">
+					<kbd>a</kbd>
+					<span>Bass</span>
+				</div>
+				<div data-key="83" class="key">
+					<kbd>s</kbd>
+					<span>Kick</span>
+				</div>
+				<div data-key="68" class="key">
+					<kbd>d</kbd>
+					<span>Snare</span>
+				</div>
+				<div data-key="70" class="key">
+					<kbd>f</kbd>
+					<span>HiHat</span>
+				</div>
+				<div data-key="71" class="key">
+					<kbd>g</kbd>
+					<span>Chant</span>
+				</div>
+				<div data-key="72" class="key">
+					<kbd>h</kbd>
+					<span>Clap</span>
+				</div>
+			
+			</div>
+
+			<audio data-key="65" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/214624/bass.wav"></audio>
+			<audio data-key="71" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/214624/chant.wav"></audio>
+			<audio data-key="72" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/214624/clap.wav"></audio>
+			<audio data-key="70" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/214624/hihat.wav"></audio>
+			<audio data-key="83" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/214624/kick.wav"></audio>
+			<audio data-key="68" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/214624/snare.wav"></audio>
+			
+	</div>
+
+</body>
+  
+    <script src="js/index.js"></script>
+
+</body>
 </html>
